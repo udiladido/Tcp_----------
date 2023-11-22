@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9aa420f00f97c9a44952973088807593, type: 3}
+  m_Name: SpawnData_SO
+  m_EditorClassIdentifier: 
+  characterData:
+  - code: 0
+    sprite: {fileID: 552375274, guid: 6a8bbe330f7277b4890d46a34b7df9db, type: 3}
+    color: {r: 1, g: 0, b: 0, a: 1}
+    BasicAttackDamage: 3
+  - code: 1
+    sprite: {fileID: -749390620, guid: 6a8bbe330f7277b4890d46a34b7df9db, type: 3}
+    color: {r: 0.15159869, g: 1, b: 0, a: 1}
+    BasicAttackDamage: 3
+  - code: 2
+    sprite: {fileID: -692228349, guid: 6a8bbe330f7277b4890d46a34b7df9db, type: 3}
+    color: {r: 0.015723169, g: 0.47098604, b: 1, a: 1}
+    BasicAttackDamage: 3
+  - code: 3
+    sprite: {fileID: -232888141, guid: 6a8bbe330f7277b4890d46a34b7df9db, type: 3}
+    color: {r: 0.5431958, g: 0, b: 0.7169812, a: 1}
+    BasicAttackDamage: 3
+  - code: 4
+    sprite: {fileID: -55363314, guid: 6a8bbe330f7277b4890d46a34b7df9db, type: 3}
+    color: {r: 1, g: 0.55673623, b: 0, a: 1}
+    BasicAttackDamage: 3
+  OriginCharacterPosition:
+  - {x: -1.45, y: -1.75}
+  - {x: -1.45, y: -1.05}
+  - {x: -1.45, y: -0.35}
+  - {x: -0.725, y: -1.75}
+  - {x: -0.725, y: -1.05}
+  - {x: -0.725, y: -0.35}
+  - {x: 0, y: -1.75}
+  - {x: 0, y: -1.05}
+  - {x: 0, y: -0.35}
+  - {x: 0.725, y: -1.75}
+  - {x: 0.725, y: -1.05}
+  - {x: 0.725, y: -0.35}
+  - {x: 1.45, y: -1.75}
+  - {x: 1.45, y: -1.05}
+  - {x: 1.45, y: -0.35}
+  OppCharacterPosition:
+  - {x: 1.45, y: 3.8}
+  - {x: 1.45, y: 3.1}
+  - {x: 1.45, y: 2.4}
+  - {x: 0.725, y: 3.8}
+  - {x: 0.725, y: 3.1}
+  - {x: 0.725, y: 2.4}
+  - {x: 0, y: 3.8}
+  - {x: 0, y: 3.1}
+  - {x: 0, y: 2.4}
+  - {x: -0.725, y: 3.8}
+  - {x: -0.725, y: 3.1}
+  - {x: -0.725, y: 2.4}
+  - {x: -1.45, y: 3.8}
+  - {x: -1.45, y: 3.1}
+  - {x: -1.45, y: 2.7}
